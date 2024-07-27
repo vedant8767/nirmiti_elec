@@ -205,7 +205,7 @@ html,body{
     font-family:'Times New Roman', Times, serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .main{
         height: 150%;
         /* background-color: #455A64; */
