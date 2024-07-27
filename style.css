@@ -313,6 +313,7 @@ html,body{
         padding: 8px 30px;
     }
     .footer{
+        height: 70vh;
         justify-content: flex-start;
         align-items: flex-start;
         font-size: 2.5vh;
