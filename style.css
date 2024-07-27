@@ -280,7 +280,7 @@ html,body{
     }
     .ourproducts{
         height: 370vh;
-        /* background-color: #BA68C8; */
+        background-color: #ffffff;
     }
     .cards{
         flex-direction: column;
@@ -289,11 +289,13 @@ html,body{
         align-items: center;
     }
     .card{
-        height: 66vh;
-        width: 70vw;
+        height: 570px;
+        width: 320px;
+        /* height: 66vh;
+        width: 70vw; */
     }
     .cardimage{
-        height: 30%;
+        /* height: 30%; */
         margin-top: 10px;
     }
     .cardname{
@@ -308,7 +310,7 @@ html,body{
         font-size: 2vh;
     }
     .desc button{
-        margin-top: 15px;
+        margin-top: 20px;
         font-size: 1.9vh;
         padding: 8px 30px;
     }
