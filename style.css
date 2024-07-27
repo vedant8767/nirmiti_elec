@@ -134,6 +134,7 @@ html,body{
     height: 100%;
 }
 .ourproducts{
+    /* position: absolute; */
     width: 100%;
     height: 100%;
     border-bottom: 1px solid rgb(58, 54, 54);
@@ -192,6 +193,8 @@ html,body{
     margin-left: 30%;
 }
 .footer{
+    /* position: relative; */
+    /* top:1700px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -276,10 +279,56 @@ html,body{
         width: 100%;
     }
     .ourproducts{
-        width: 100%;
-        height: 285%;
+        height: 350vh;
         /* background-color: #BA68C8; */
     }
+    .cards{
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 30px;
+        align-items: center;
+    }
+    .card{
+        height: 62vh;
+        width: 70vw;
+    }
+    .cardname{
+        font-size: 2.5vh;
+    }
+    .desc p{
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 26px;
+        margin-top: 20px;
+        font-size: 2vh;
+    }
+    .desc button{
+        margin-top: 25px;
+        font-size: 1.9vh;
+        padding: 8px 30px;
+    }
+    .footer{
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 2.5vh;
+        flex-direction: column;
+    }
+    .footer > * {
+        margin-left: 70px;
+        margin-top: 20px;
+    } 
+    .address p{
+        line-height: 32px;
+    }
+    .footer .title{
+        margin-top: 35px;
+    }
+    /* .ourproducts{
+        width: 100%;
+        height: 285%;
+        background-color: #BA68C8; 
+     } 
     .cards{
         gap: 30px;
         justify-content:flex-start;
@@ -289,7 +338,7 @@ html,body{
         height: 580px;
         width: 80%;
         margin-left: 45px;
-        /* margin-right: 20px; */
+        margin-right: 20px; 
     }
     .cardname{
         font-size: 2.5vh;
@@ -299,8 +348,8 @@ html,body{
     }
     .desc button{
         margin-top: 28px;
-    }
-    .footer{
+    }  */
+    /* .footer{
         width: 100%;
         height: 50%;
         margin-top: 5px;
@@ -322,5 +371,5 @@ html,body{
     }
     #c{
         margin-left: 50px;
-    }
+    } */
 }
