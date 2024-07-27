@@ -289,7 +289,7 @@ html,body{
         align-items: center;
     }
     .card{
-        height: 65vh;
+        height: 66vh;
         width: 70vw;
     }
     .cardimage{
@@ -307,7 +307,7 @@ html,body{
         font-size: 2vh;
     }
     .desc button{
-        margin-top: 25px;
+        margin-top: 15px;
         font-size: 1.9vh;
         padding: 8px 30px;
     }
