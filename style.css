@@ -288,6 +288,7 @@ html,body{
     }
     .cards{
         height: 380%;
+        background-color: aqua;
         flex-direction: column;
         justify-content: flex-start;
         gap: 30px;
