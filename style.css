@@ -11,7 +11,7 @@ html,body{
 .main{
     height: 100%;
     width: 100%;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .nav{
@@ -146,6 +146,8 @@ html,body{
     margin-top: 20px;
 }
 .cards{
+    /* background-color: aquamarine; */
+    position: absolute;
     display: flex;
     gap: 20px;
     margin-top: 30px;
@@ -155,6 +157,7 @@ html,body{
     /* background-color: #FF725E; */
 }
 .card{
+    position: relative;
     border-radius: 5px;
     /* background-color: #BA68C8; */
     height: 440px;
@@ -207,8 +210,8 @@ html,body{
 
 @media only screen and (max-width: 800px) {
     .main{
-        height: 150%;
-        /* background-color: #455A64; */
+        /* height: 150%; */
+        background-color: aqua;
     }
     .nav{
         /* background-color: aquamarine; */
@@ -279,10 +282,12 @@ html,body{
         width: 100%;
     }
     .ourproducts{
-        height: 4000px;
-        background-color: #ffffff;
+        /* height: 4000px; */
+        height: 390%;
+        /* background-color: #b1e80c; */
     }
     .cards{
+        height: 360%;
         flex-direction: column;
         justify-content: flex-start;
         gap: 30px;
@@ -315,6 +320,7 @@ html,body{
         padding: 8px 30px;
     }
     .footer{
+        /* margin-top: 72px; */
         height: 70vh;
         justify-content: flex-start;
         align-items: flex-start;
